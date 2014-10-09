@@ -1,4 +1,4 @@
-url<-"httpurl<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
+url<-"https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 path<-"./epc/epc.zip"
 download.file(url,destfile="./epc/epc.zip")
 unzip("./epc/epc.zip")
